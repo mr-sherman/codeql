@@ -7,6 +7,7 @@ private import semmle.code.csharp.frameworks.EntityFramework
 private import semmle.code.csharp.frameworks.NHibernate
 private import semmle.code.csharp.frameworks.Dapper
 private import semmle.code.csharp.dataflow.DataFlow4
+private import semmle.code.csharp.frameworks.ServiceStack::SQL
 
 /** An expression containing a SQL command. */
 abstract class SqlExpr extends Expr {
